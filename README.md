@@ -11,7 +11,7 @@ git branch -a
 # Checkout a specific week
 git checkout week-02
 
-# Install the app locally
+# Install the app locall
 
 1. python -m venv env #create a virtualenv
 2. source env/bin/activate # activate the virtualenv
