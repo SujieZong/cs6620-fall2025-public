@@ -26,7 +26,8 @@ sudo yum update -y
 
 # Install required packages
 echo -e "${YELLOW}🛠️  Installing required packages...${NC}"
-sudo yum install -y python3 python3-pip git curl wget
+sudo yum install -y curl --allowerasing
+sudo yum install -y python3 python3-pip git wget
 
 # Install Python dependencies
 echo -e "${YELLOW}🐍 Installing Python dependencies...${NC}"
@@ -76,7 +77,7 @@ echo ""
 
 echo -e "${YELLOW}📝 Next Steps:${NC}"
 echo "1. Copy your application files to /opt/speech-labeling/"
-echo "   cp -r ~/cs6620-educational-repo/* /opt/speech-labeling/"
+echo "   cp -r ~/cs6620-fall2025-public/* /opt/speech-labeling/"
 echo ""
 echo "2. Copy audio files to /opt/audio/ (optional)"
 echo "3. Copy CSV data file to /opt/data/err-dataset.csv (optional)"
