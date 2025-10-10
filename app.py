@@ -572,3 +572,4 @@ if __name__ == '__main__':
     # Auto-load CSV and audio files on startup
     auto_load_data()
     app.run(debug=True, host='0.0.0.0', port=3000)
+# Docker build v1.0.1
